@@ -48,7 +48,7 @@ running(false)
 //Expose_event method.
 bool AudioViewport::on_expose_event(GdkEventExpose* event)
 {
-	if (*running) {
+	if (running) {
 		return true;   // gene - TODO: should disable expose event completely when in running state
 	}
 

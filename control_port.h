@@ -26,7 +26,7 @@
 #include <gtkmm/scale.h>
 #include <gtkmm/stock.h>
 #include <glibmm/thread.h>
-#include <sigc++/class_slot.h>
+//#include <sigc++/class_slot.h>
 #include "utils.h"
 #include "audio_viewport.h"
 #include "status_port.h"

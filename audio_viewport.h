@@ -54,7 +54,7 @@ private:
   // temporary variables
   vector<double> *drawing_vals;
 	Glib::Mutex *draw_mutex;   // mutex for synchronizing cross thread drawing buffer
-	bool *running;
+	bool running;
 };
 
 #endif //AUDIO_VIEWPORT_H
